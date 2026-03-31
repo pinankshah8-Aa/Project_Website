@@ -1,0 +1,54 @@
+
+div{
+    /* border: 1px solid black; */
+}
+.yellow{
+    color: darkgoldenrod;
+ font-weight: bold;
+}
+.aqua{
+    color: skyblue;
+}
+body{
+    height: auto;
+    width:auto;
+    /* border:2px solid black; */
+}
+.strong{
+    font-size: 60%;
+}
+.box1{
+    font-size: 60%;
+    height: 150px;
+    width: 150px;
+}
+.box{
+font-size: 60%;
+/* border: 2px solid red; */
+display: flex;
+margin-top: 10%;
+height: 40px;
+/* width: 50px; */
+}
+
+.fullbox{
+    display: flex;
+    font-size: 60%;
+    height: 300px;
+    width: 100px;
+    flex-wrap: wrap;
+    gap: 20px;
+    flex-direction: column;
+
+}
+
+
+
+.heading{
+  align-items  : center;
+}
+
+
+
+
+

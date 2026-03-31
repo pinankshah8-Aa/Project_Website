@@ -1,0 +1,121 @@
+
+/* Navbar */
+
+div{
+    border: 1px solid rgb(238, 228, 228);
+}
+
+.Pnav{
+    width: 90%;
+    height: 60px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.a{
+    width: 120px;
+    height: 30px;
+    margin: auto;
+     border-radius: 20px;
+     text-align: center;
+     padding: auto;
+}
+.b{
+    width: 280px;
+     display: flex;
+     justify-content: space-around;
+}
+.registration{
+    margin-right: 30px;
+}
+.logoboxn{
+     width: 120px;
+    height: 45px;
+    margin: auto;
+}
+/* Navbar */
+/* Next */
+
+.next{
+
+    width: 90%;
+    height: 40px;
+    margin: auto;
+    background-color: rgb(228, 228, 228);
+    /* color: white; */
+}
+.text{
+    width: 60%;
+    height: 25px;
+    margin: auto;
+    margin-top: 8px;
+    display: flex;
+    justify-content: space-around;
+}
+/* college photo */
+.college{
+    width: 90%;
+    height: 500px;
+    margin: auto;
+    /* margin-right: -50px; */
+}
+.vstudent{
+     width: 90%;
+    height: 500px;
+    margin: auto;
+}
+.Partener1{
+     width: 90%;
+    height: 60px;
+    margin: auto;
+     background-color: rgb(223, 223, 251);
+}
+.partPhoto{
+   
+     width: 60%;
+    height: 45px;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.part{
+    width: 120px;
+    height: 45px;
+    margin: auto;
+}
+/* Animation */
+
+.animation{
+    width: 90%;
+    height: 20px;
+    margin: auto;
+}
+.move{
+    text-align: center;
+    margin-left: 300px;
+    animation-name: offer;
+    animation-iteration-count: infinite;
+    animation-duration:25s;
+    animation-delay: 1s;
+    animation-timing-function: ease-in-out;
+    display: flex;
+    background-color: darkblue;
+    color: white;
+}
+
+@keyframes offer {
+
+    0%{
+        transform: translateX(-1600px);
+    }
+    50%{
+        transform: translateX(110%);
+    }
+    100%{
+         transform: translateX(-1600px);
+    }
+    
+}
+
+/* link box */
